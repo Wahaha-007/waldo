@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/waldo/static/css/main.472db625.css",
+    "main.js": "/waldo/static/js/main.2f262bea.js",
+    "static/media/the-loc-nar.314cec99.jpg": "/waldo/static/media/the-loc-nar.314cec99.314cec99f414807b7e27.jpg",
+    "static/media/crosshairs.png": "/waldo/static/media/crosshairs.fe2d8c60e9fdb920a577.png",
+    "index.html": "/waldo/index.html",
+    "main.472db625.css.map": "/waldo/static/css/main.472db625.css.map",
+    "main.2f262bea.js.map": "/waldo/static/js/main.2f262bea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.472db625.css",
+    "static/js/main.2f262bea.js"
+  ]
+}
