@@ -1,0 +1,250 @@
+body {
+    text-align: center;
+}
+
+
+/*----------- Welcome PAge -----------------*/
+
+.welcomePage {
+    text-shadow: 2px 2px 4px rgb(44, 100, 7);
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    z-index: 3;
+    border-radius: 10%;
+    width: 550px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.wimage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.imgwborder {
+    border-radius: 30%;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: auto;
+    height: 120px;
+}
+
+
+/*----------- End PAge -----------------*/
+
+.endPage {
+    text-shadow: 2px 2px 4px rgb(44, 100, 7);
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    z-index: 3;
+    border-radius: 10%;
+    width: 550px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+th,
+tr:nth-child(even) {
+    background-color: rgba(48, 46, 46, 0.9);
+}
+
+
+/*----------- Main Page ---------------------*/
+
+.mheader {
+    text-shadow: 2px 2px 4px rgb(44, 100, 7);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    position: fixed;
+    z-index: 0;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.mfooter {
+    text-shadow: 2px 2px 4px rgb(44, 100, 7);
+    color: white;
+    position: relative;
+    z-index: 0;
+    top: -20px;
+    margin: 0;
+    height: 0;
+}
+
+.mfooter a,
+a:visited,
+a:hover,
+a:active {
+    color: inherit;
+}
+
+.mheader-middle {
+    width: 800px;
+}
+
+.mheader-left {
+    width: 500px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: smaller;
+}
+
+.imgborder {
+    border-style: dotted;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 30%;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: auto;
+    height: 40px;
+}
+
+.cTimer {
+    display: flex;
+    align-items: center;
+}
+
+.mbody {
+    background-image: url('./pic/the-loc-nar.314cec99.jpg');
+    background-size: 100vw;
+    height: 421.1vw;
+    background-repeat: no-repeat;
+    cursor: url('./pic/crosshairs.png'), zoom-in;
+    /* Get height value from image properties */
+}
+
+.ddbox {
+    border-style: dotted;
+    border-width: 4px;
+    border-color: white;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    height: 80px;
+    width: 80px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .ddbox {
+        animation: App-logo-spin infinite 40s linear;
+    }
+}
+
+
+/* #f1f1f1; */
+
+.dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-shadow: 2px 2px 4px rgb(44, 100, 7);
+}
+
+
+/*#ddd*/
+
+.dropdown-content a:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Add for animation 
+
+https://codinhood.com/micro/10-dropdown-menu-animations-css-transform
+
+*/
+
+
+/* Menu as a whole animated */
+
+.dropdown_menu-6 {
+    animation: growDown 300ms ease-in-out forwards;
+    transform-origin: top center;
+}
+
+@keyframes growDown {
+    0% {
+        transform: scaleY(0);
+    }
+    80% {
+        transform: scaleY(1.1);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
